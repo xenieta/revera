@@ -1,0 +1,135 @@
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.hd{
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+}
+.title{
+  width: 300px;
+}
+h1{
+  color: #000;
+  font-size: 36px;
+}
+h2{
+  font-size: 22px;
+}
+h3{
+  font-size: 16px;
+}
+.section-title{
+text-transform: uppercase;
+padding: 10px 0px 20px 0px;
+}
+.top-menu{
+  float: right;
+  color: #606060;
+}
+.menu-color {
+  color: #606060;
+}
+.active{
+  color: #f4473a;
+}
+header a:hover{
+  color: #f4473a;
+}
+.carousel-item img{
+  filter:grayscale() brightness(50%);
+}
+.carousel-control-next, .carousel-control-prev{
+    top: 40%;
+    bottom: 40%;
+    width: 5%;
+    background-color: red;
+}
+.carousel-caption{
+  bottom: 50%;
+  transform: translateY(50%);
+}
+@media (max-width: 800px){
+  .carousel-control-next,
+  .carousel-control-prev{
+  background-color: blue;
+  }
+}
+.fwidgets{
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  height: : 200px;
+}
+.widgets-group{
+  float: center;
+}
+.glyphicon{
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+.widget{
+  text-align: center;
+  color: white;
+}
+.red{
+  color: #f4473a;
+}
+.white{
+  color: white;
+}
+.card{
+border: none;
+}
+.art-subt{
+  color: #606060;
+  font-size: 12px;
+  padding-top:10px;
+}
+.card-body{
+  padding: 0px 0px 10px 0px;
+}
+.card-body a{
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+.card-body a:hover{
+  color: #606060;
+  text-decoration-line: none;
+}
+.card-text{
+  padding-top: 10px;
+}
+
+#bottom{
+padding: 20px 0px 40px 0px;
+background: #3b3b3b;
+border-top: 5px solid #ed564b;
+}
+a:hover{
+  color: white;
+  text-decoration-line: none;
+}
+.text-bottom, a{
+  color:#aaa;
+}
+ul{
+  padding-left: 0px;
+}
+li{
+  list-style: none;
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+li a{
+    color:#aaa;
+}
+
+.site-footer{
+color:white;
+padding: 10px 0px;
+background: #292929;
+font-size: 12px;
+}
